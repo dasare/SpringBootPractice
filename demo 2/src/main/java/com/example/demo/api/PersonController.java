@@ -4,10 +4,11 @@ import com.example.demo.service.PersonService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.Person;
-
+@RequestMapping("api/v1/person")
 @RestController
 public class PersonController {
 
